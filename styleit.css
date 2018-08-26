@@ -1,0 +1,86 @@
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+
+
+#main{border-radius: 25px;}
+
+.wrapper{ margin:0 auto; width:1200px;  }
+
+li {display:inline-block;}
+
+li  a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;font-family: Arial narrow, sans-serif;
+}
+
+li  a:hover { color:white; text-decoration: none;
+    background-color: red;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#f6f8f9;  
+    width: auto; 
+    height:auto;
+	z-index:5;
+	overflow:hidden;border-radius:19px;
+}
+
+
+
+.jobs:hover .dropdown-content {
+    display: block ;
+}
+
+.romance:hover .dropdown-content{
+    display: block;
+}
+
+.services:hover .dropdown-content{
+    display: block;
+}
+.aboutme:hover .dropdown-content{
+    display: block;
+}
+
+  .dropdown-content a {
+    color: white;
+    padding: 2px 2px;
+    text-decoration: none;
+    text-align:left;
+}
+
+ }
+.dropdown-content a:hover {background-color:#828788; font-weight:bold;}
+
+            
+            
+	div .dropdown-content ul li{ display:block;}	
+    		
+		
+		.jumbotron{
+                position: relative;
+               z-index:-101;
+                   }
+				   
+		 #video { 
+      position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -100;
+        width:100%; }
+                 
+	
